@@ -1,0 +1,11 @@
+{
+    "noncommercial": {
+        "apiKey": "???",
+        "secretKey": "???"
+    },
+    "commercial": {
+        "apiKey": "???",
+        "secretKey": "???",
+        "accessKey": "???"
+    }
+}

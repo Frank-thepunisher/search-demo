@@ -1,0 +1,926 @@
+[
+    {
+        "name": "Landschaft",
+        "mediatypes": [0],
+        "categories": [
+            {
+                "name": "Stadt",
+                "categories": [
+                    {
+                        "id": 1,
+                        "name": "Las Vegas",
+                        "keywords": ["Las Vegas"]
+                    },
+                    {
+                        "id": 2,
+                        "name": "Rom",
+                        "keywords": ["Rom"]
+                    },
+                    {
+                        "id": 3,
+                        "name": "Paris",
+                        "keywords": ["Paris"]
+                    },
+                    {
+                        "id": 4,
+                        "name": "Tokyo",
+                        "keywords": ["Tokyo"]
+                    },
+                    {
+                        "id": 5,
+                        "name": "Seattle",
+                        "keywords": ["Seattle"]
+                    },
+                    {
+                        "id": 6,
+                        "name": "New York",
+                        "keywords": ["New York"]
+                    },
+                    {
+                        "id": 7,
+                        "name": "Los Angeles",
+                        "keywords": ["Los Angeles"]
+                    },
+                    {
+                        "id": 8,
+                        "name": "San Francisco",
+                        "keywords": ["San Francisco"]
+                    },
+                    {
+                        "id": 9,
+                        "name": "Berlin",
+                        "keywords": ["Berlin"]
+                    },
+                    {
+                        "id": 10,
+                        "name": "München",
+                        "keywords": ["München"]
+                    },
+                    {
+                        "id": 11,
+                        "name": "Hamburg",
+                        "keywords": ["Hamburg"]
+                    },
+                    {
+                        "id": 12,
+                        "name": "Dresden",
+                        "keywords": ["Dresden"]
+                    },
+                    {
+                        "id": 13,
+                        "name": "Düsseldorf",
+                        "keywords": ["Düsseldorf"]
+                    },
+                    {
+                        "id": 14,
+                        "name": "Köln",
+                        "keywords": ["Köln"]
+                    },
+                    {
+                        "id": 15,
+                        "name": "Rio",
+                        "keywords": ["Rio"]
+                    },
+                    {
+                        "id": 16,
+                        "name": "Kapstadt",
+                        "keywords": ["Kapstadt"]
+                    },
+                    {
+                        "id": 17,
+                        "name": "Cairo",
+                        "keywords": ["Cairo"]
+                    }
+                ]
+            },
+            {
+                "name": "Land",
+                "categories": [
+                    {
+                        "id": 18,
+                        "name": "Wiese",
+                        "keywords": ["Wiese"]
+                    },
+                    {
+                        "id": 19,
+                        "name": "Sümpfe",
+                        "keywords": ["Sümpfe"]
+                    },
+                    {
+                        "id": 20,
+                        "name": "Wald",
+                        "keywords": ["Wald"]
+                    },
+                    {
+                        "id": 21,
+                        "name": "Steppe",
+                        "keywords": ["Steppe"]
+                    }
+                ]
+            },
+            {
+                "name": "Berge",
+                "categories": [
+                    {
+                        "id": 22,
+                        "name": "Alpen",
+                        "keywords": ["Alpen"]
+                    },
+                    {
+                        "id": 23,
+                        "name": "Anden",
+                        "keywords": ["Anden"]
+                    },
+                    {
+                        "id": 24,
+                        "name": "Himalaya",
+                        "keywords": ["Himalaya"]
+                    },
+                    {
+                        "id": 25,
+                        "name": "Rocky Mountains",
+                        "keywords": ["Rocky Mountains"]
+                    }
+                ]
+            },
+            {
+                "name": "Insel",
+                "categories": [
+                    {
+                        "id": 26,
+                        "name": "Atoll",
+                        "keywords": ["Atoll"]
+                    },
+                    {
+                        "id": 27,
+                        "name": "Karibik",
+                        "keywords": ["Karibik"]
+                    },
+                    {
+                        "id": 28,
+                        "name": "Palmenstrand",
+                        "keywords": ["Palmenstrand"]
+                    }
+                ]
+            },
+            {
+                "name": "Wüste",
+                "categories": [
+                    {
+                        "id": 29,
+                        "name": "Sandwüste",
+                        "keywords": ["Sandwüste"]
+                    },
+                    {
+                        "id": 30,
+                        "name": "Eiswüste",
+                        "keywords": ["Eiswüste"]
+                    },
+                    {
+                        "id": 31,
+                        "name": "Kamel Karawane",
+                        "keywords": ["Kamel Karawane"]
+                    },
+                    {
+                        "id": 32,
+                        "name": "Fata Morgana",
+                        "keywords": ["Fata Morgana"]
+                    },
+                    {
+                        "id": 33,
+                        "name": "Grand Canyon",
+                        "keywords": ["Grand Canyon"]
+                    }
+                ]
+            },
+            {
+                "name": "Wasser",
+                "categories": [
+                    {
+                        "id": 34,
+                        "name": "Flüsse",
+                        "keywords": ["Flüsse"]
+                    },
+                    {
+                        "id": 35,
+                        "name": "See",
+                        "keywords": ["See"]
+                    },
+                    {
+                        "id": 36,
+                        "name": "Meer",
+                        "keywords": ["Meer"]
+                    },
+                    {
+                        "id": 37,
+                        "name": "Wasserfälle",
+                        "keywords": ["Wasserfälle"]
+                    }
+                ]
+            },
+            {
+                "name": "Horizont",
+                "categories": [
+                    {
+                        "id": 38,
+                        "name": "Sonnenuntergang",
+                        "keywords": ["Sonnenuntergang"]
+                    },
+                    {
+                        "id": 39,
+                        "name": "Sonnenaufgang",
+                        "keywords": ["Sonnenaufgang"]
+                    },
+                    {
+                        "id": 40,
+                        "name": "Mond",
+                        "keywords": ["Mond"]
+                    },
+                    {
+                        "id": 41,
+                        "name": "Wolken",
+                        "keywords": ["Wolken"]
+                    }
+                ]
+            },
+            {
+                "name": "Unterwasserlandschaft",
+                "categories": [
+                    {
+                        "id": 42,
+                        "name": "Korallenriff",
+                        "keywords": ["Korallenriff"]
+                    },
+                    {
+                        "id": 43,
+                        "name": "Tiefsee",
+                        "keywords": ["Tiefsee"]
+                    },
+                    {
+                        "id": 44,
+                        "name": "Meeresgrund",
+                        "keywords": ["Meeresgrund"]
+                    }
+                ]
+            },
+            {
+                "name": "Naturlandschaft",
+                "categories": [
+                    {
+                        "id": 45,
+                        "name": "Wasserfall",
+                        "keywords": ["Wasserfall"]
+                    },
+                    {
+                        "id": 46,
+                        "name": "Winterlandschaft",
+                        "keywords": ["Winterlandschaft"]
+                    },
+                    {
+                        "id": 47,
+                        "name": "Hügellandschaft",
+                        "keywords": ["Hügellandschaft"]
+                    },
+                    {
+                        "id": 48,
+                        "name": "Regenwald",
+                        "keywords": ["Regenwald"]
+                    }
+                ]
+            },
+            {
+                "name": "Naturkatastrophe",
+                "categories": [
+                    {
+                        "id": 49,
+                        "name": "Welle",
+                        "keywords": ["Welle"]
+                    },
+                    {
+                        "id": 50,
+                        "name": "Vulkanausbruch",
+                        "keywords": ["Vulkanausbruch"]
+                    },
+                    {
+                        "id": 51,
+                        "name": "Hochwasser",
+                        "keywords": ["Hochwasser"]
+                    }
+                ]
+            },
+            {
+                "name": "Luftaufnahmen",
+                "categories": [
+                    {
+                        "id": 52,
+                        "name": "Helikopteraufnahmen",
+                        "keywords": ["Helikopteraufnahmen"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sehenswürdigkeiten",
+        "mediatypes": [0],
+        "categories": [
+            {
+                "id": 53,
+                "name": "Schiefe Turm von Pisa",
+                "keywords": ["Schiefe Turm von Pisa"]
+            },
+            {
+                "id": 54,
+                "name": "Kolosseum",
+                "keywords": ["Kolosseum"]
+            },
+            {
+                "id": 55,
+                "name": "Golden Gate Bridge",
+                "keywords": ["Golden Gate Bridge"]
+            },
+            {
+                "id": 56,
+                "name": "Semperoper",
+                "keywords": ["Semperoper"]
+            },
+            {
+                "id": 57,
+                "name": "Reichstag",
+                "keywords": ["Reichstag"]
+            },
+            {
+                "id": 58,
+                "name": "Oper Sydney",
+                "keywords": ["Oper Sydney"]
+            },
+            {
+                "id": 59,
+                "name": "Chinesische Mauer",
+                "keywords": ["Chinesische Mauer"]
+            }
+        ]
+    },
+    {
+        "name": "Menschen",
+        "mediatypes": [0],
+        "categories": [
+            {
+                "name": "Einzelne Menschen",
+                "categories": [
+                    {
+                        "id": 60,
+                        "name": "Mann",
+                        "keywords": ["Mann"]
+                    },
+                    {
+                        "id": 61,
+                        "name": "Frau",
+                        "keywords": ["Frau"]
+                    },
+                    {
+                        "id": 62,
+                        "name": "Kind",
+                        "keywords": ["Kind"]
+                    },
+                    {
+                        "id": 63,
+                        "name": "Baby",
+                        "keywords": ["Baby"]
+                    }
+                ]
+            },
+            {
+                "name": "Mehrere Menschen",
+                "categories": [
+                    {
+                        "id": 64,
+                        "name": "verliebtes Paar",
+                        "keywords": ["verliebtes Paar"]
+                    },
+                    {
+                        "id": 65,
+                        "name": "glückliche Menschen",
+                        "keywords": ["glückliche Menschen"]
+                    },
+                    {
+                        "id": 66,
+                        "name": "Menschenansammlung",
+                        "keywords": ["Menschenansammlung"]
+                    },
+                    {
+                        "id": 67,
+                        "name": "Romantik",
+                        "keywords": ["Romantik"]
+                    }
+                ]
+            },
+            {
+                "name": "Sportler",
+                "categories": [
+                    {
+                        "id": 68,
+                        "name": "Sportler",
+                        "keywords": ["Sportler"]
+                    },
+                    {
+                        "id": 69,
+                        "name": "Bergsteiger",
+                        "keywords": ["Bergsteiger"]
+                    },
+                    {
+                        "id": 70,
+                        "name": "Radrennfahrer",
+                        "keywords": ["Radrennfahrer"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Natur",
+        "mediatypes": [0],
+        "categories": [
+            {
+                "name": "Blumen",
+                "categories": [
+                    {
+                        "id": 71,
+                        "name": "Rosen",
+                        "keywords": ["Rosen"]
+                    },
+                    {
+                        "id": 72,
+                        "name": "Tulpen",
+                        "keywords": ["Tulpen"]
+                    },
+                    {
+                        "id": 73,
+                        "name": "Lilie",
+                        "keywords": ["Lilie"]
+                    },
+                    {
+                        "id": 74,
+                        "name": "Lotus",
+                        "keywords": ["Lotus"]
+                    },
+                    {
+                        "id": 75,
+                        "name": "Calla",
+                        "keywords": ["Calla"]
+                    },
+                    {
+                        "id": 76,
+                        "name": "Gerbera",
+                        "keywords": ["Gerbera"]
+                    }
+                ]
+            },
+            {
+                "name": "Bäume",
+                "categories": [
+                    {
+                        "id": 77,
+                        "name": "Palme",
+                        "keywords": ["Palme"]
+                    },
+                    {
+                        "id": 78,
+                        "name": "Wälder",
+                        "keywords": ["Wälder"]
+                    },
+                    {
+                        "id": 79,
+                        "name": "Regenwald",
+                        "keywords": ["Regenwald"]
+                    },
+                    {
+                        "id": 80,
+                        "name": "Mischwald",
+                        "keywords": ["Mischwald"]
+                    },
+                    {
+                        "id": 81,
+                        "name": "Park",
+                        "keywords": ["Park"]
+                    }
+                ]
+            },
+            {
+                "name": "Flüsse",
+                "categories": [
+                    {
+                        "id": 82,
+                        "name": "Mississippi",
+                        "keywords": ["Mississippi"]
+                    },
+                    {
+                        "id": 83,
+                        "name": "Amazonas",
+                        "keywords": ["Amazonas"]
+                    },
+                    {
+                        "id": 84,
+                        "name": "Nil",
+                        "keywords": ["Nil"]
+                    },
+                    {
+                        "id": 85,
+                        "name": "Isar",
+                        "keywords": ["Isar"]
+                    },
+                    {
+                        "id": 86,
+                        "name": "Donau",
+                        "keywords": ["Donau"]
+                    },
+                    {
+                        "id": 87,
+                        "name": "Weser",
+                        "keywords": ["Weser"]
+                    },
+                    {
+                        "id": 88,
+                        "name": "Wasserfall",
+                        "keywords": ["Wasserfall"]
+                    }
+                ]
+            },
+            {
+                "name": "See",
+                "categories": [
+                    {
+                        "id": 89,
+                        "name": "Alpensee",
+                        "keywords": ["Alpensee"]
+                    },
+                    {
+                        "id": 90,
+                        "name": "Gardasee",
+                        "keywords": ["Gardasee"]
+                    }
+                ]
+            },
+            {
+                "name": "Meer",
+                "categories": [
+                    {
+                        "id": 91,
+                        "name": "Balearen",
+                        "keywords": ["Balearen"]
+                    },
+                    {
+                        "id": 92,
+                        "name": "Atlantik",
+                        "keywords": ["Atlantik"]
+                    },
+                    {
+                        "id": 93,
+                        "name": "totes Meer",
+                        "keywords": ["totes Meer"]
+                    },
+                    {
+                        "id": 94,
+                        "name": "Pazifik",
+                        "keywords": ["Pazifik"]
+                    }
+                ]
+            },
+            {
+                "name": "Tiere",
+                "categories": [
+                    {
+                        "id": 95,
+                        "name": "Hunde",
+                        "keywords": ["Hunde"]
+                    },
+                    {
+                        "id": 96,
+                        "name": "Katzen",
+                        "keywords": ["Katzen"]
+                    },
+                    {
+                        "id": 97,
+                        "name": "Tiger",
+                        "keywords": ["Tiger"]
+                    },
+                    {
+                        "id": 98,
+                        "name": "Löwe",
+                        "keywords": ["Löwe"]
+                    },
+                    {
+                        "id": 99,
+                        "name": "Schlange",
+                        "keywords": ["Schlange"]
+                    },
+                    {
+                        "id": 100,
+                        "name": "Vögel",
+                        "keywords": ["Vögel"]
+                    },
+                    {
+                        "id": 101,
+                        "name": "Echsen",
+                        "keywords": ["Echsen"]
+                    },
+                    {
+                        "id": 102,
+                        "name": "Pferde",
+                        "keywords": ["Pferde"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Elemente",
+        "mediatypes": [0],
+        "categories": [
+            {
+                "id": 103,
+                "name": "Wasser",
+                "keywords": ["Wasser"]
+            },
+            {
+                "id": 104,
+                "name": "Feuer",
+                "keywords": ["Feuer"]
+            },
+            {
+                "id": 105,
+                "name": "Erdboden",
+                "keywords": ["Erdboden"]
+            },
+            {
+                "id": 106,
+                "name": "Himmel",
+                "keywords": ["Himmel"]
+            }
+        ]
+    },
+    {
+        "name": "Tierkreiszeichen",
+        "mediatypes": [0, 1],
+        "categories": [
+            {
+                "id": 107,
+                "name": "Sternzeichen Steinbock",
+                "keywords": ["Sternzeichen Steinbock"]
+            },
+            {
+                "id": 108,
+                "name": "Sternzeichen Wassermann",
+                "keywords": ["Sternzeichen Wassermann"]
+            },
+            {
+                "id": 109,
+                "name": "Sternzeichen Fische",
+                "keywords": ["Sternzeichen Fische"]
+            },
+            {
+                "id": 110,
+                "name": "Sternzeichen Widder",
+                "keywords": ["Sternzeichen Widder"]
+            },
+            {
+                "id": 111,
+                "name": "Sternzeichen Stier",
+                "keywords": ["Sternzeichen Stier"]
+            },
+            {
+                "id": 112,
+                "name": "Sternzeichen Zwilling",
+                "keywords": ["Sternzeichen Zwilling"]
+            },
+            {
+                "id": 113,
+                "name": "Sternzeichen Löwe",
+                "keywords": ["Sternzeichen Löwe"]
+            },
+            {
+                "id": 114,
+                "name": "Sternzeichen Jungfrau",
+                "keywords": ["Sternzeichen Jungfrau"]
+            },
+            {
+                "id": 115,
+                "name": "Sternzeichen Skorpion",
+                "keywords": ["Sternzeichen Skorpion"]
+            },
+            {
+                "id": 116,
+                "name": "Sternzeichen Schütze",
+                "keywords": ["Sternzeichen Schütze"]
+            },
+            {
+                "id": 117,
+                "name": "Sternzeichen Krebs",
+                "keywords": ["Sternzeichen Krebs"]
+            },
+            {
+                "id": 118,
+                "name": "Sternzeichen Waage",
+                "keywords": ["Sternzeichen Waage"]
+            }
+        ]
+    },
+    {
+        "name": "kulinarische Genüsse",
+        "mediatypes": [0],
+        "categories": [
+            {
+                "name": "Essen",
+                "categories": [
+                    {
+                        "id": 119,
+                        "name": "chinesisches Essen ",
+                        "keywords": ["chinesisches Essen "]
+                    },
+                    {
+                        "id": 120,
+                        "name": "italienisches Essen",
+                        "keywords": ["italienisches Essen"]
+                    },
+                    {
+                        "id": 121,
+                        "name": "amerikanisches Essen",
+                        "keywords": ["amerikanisches Essen"]
+                    },
+                    {
+                        "id": 122,
+                        "name": "deutsches Essen",
+                        "keywords": ["deutsches Essen"]
+                    }
+                ]
+            },
+            {
+                "name": "Trinken",
+                "categories": [
+                    {
+                        "id": 123,
+                        "name": "Kaffee",
+                        "keywords": ["Kaffee"]
+                    },
+                    {
+                        "id": 124,
+                        "name": "Tee",
+                        "keywords": ["Tee"]
+                    },
+                    {
+                        "id": 125,
+                        "name": "Longdrink",
+                        "keywords": ["Longdrink"]
+                    },
+                    {
+                        "id": 126,
+                        "name": "Cocktail",
+                        "keywords": ["Cocktail"]
+                    },
+                    {
+                        "id": 127,
+                        "name": "Bier",
+                        "keywords": ["Bier"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sport & Freizeit",
+        "mediatypes": [0],
+        "categories": [
+            {
+                "name": "Sport",
+                "categories": [
+                    {
+                        "id": 128,
+                        "name": "bergsteigen",
+                        "keywords": ["bergsteigen"]
+                    },
+                    {
+                        "id": 129,
+                        "name": "radfahren",
+                        "keywords": ["radfahren"]
+                    },
+                    {
+                        "id": 130,
+                        "name": "wandern",
+                        "keywords": ["wandern"]
+                    },
+                    {
+                        "id": 131,
+                        "name": "Golf",
+                        "keywords": ["Golf"]
+                    },
+                    {
+                        "id": 132,
+                        "name": "Tennis",
+                        "keywords": ["Tennis"]
+                    }
+                ]
+            },
+            {
+                "name": "Freizeit",
+                "categories": [
+                    {
+                        "id": 133,
+                        "name": "Badminton",
+                        "keywords": ["Badminton"]
+                    },
+                    {
+                        "id": 134,
+                        "name": "Kricket",
+                        "keywords": ["Kricket"]
+                    },
+                    {
+                        "id": 135,
+                        "name": "Billard",
+                        "keywords": ["Billard"]
+                    },
+                    {
+                        "id": 136,
+                        "name": "Strand",
+                        "keywords": ["Strand"]
+                    }
+                ]
+            },
+            {
+                "name": "Hobby",
+                "categories": [
+                    {
+                        "id": 137,
+                        "name": "Autos",
+                        "keywords": ["Autos"]
+                    },
+                    {
+                        "id": 138,
+                        "name": "Motorrad",
+                        "keywords": ["Motorrad"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Andere",
+        "mediatypes": [0, 1],
+        "categories": [
+            {
+                "id": 139,
+                "name": "Hintergrund",
+                "keywords": ["Hintergrund"]
+            },
+            {
+                "id": 140,
+                "name": "Lava",
+                "keywords": ["Lava"]
+            },
+            {
+                "id": 141,
+                "name": "Abstrakt",
+                "keywords": ["Abstrakt"]
+            },
+            {
+                "id": 142,
+                "name": "Comic",
+                "keywords": ["Comic"]
+            },
+            {
+                "id": 143,
+                "name": "Absurd",
+                "keywords": ["Absurd"]
+            },
+            {
+                "id": 144,
+                "name": "Fantasy",
+                "keywords": ["Fantasy"]
+            },
+            {
+                "id": 145,
+                "name": "Monoton",
+                "keywords": ["Monoton"]
+            },
+            {
+                "id": 146,
+                "name": "Pattern",
+                "keywords": ["Pattern"]
+            },
+            {
+                "id": 147,
+                "name": "Beauty",
+                "keywords": ["Beauty"]
+            },
+            {
+                "id": 148,
+                "name": "Nostalgie",
+                "keywords": ["Nostalgie"]
+            },
+            {
+                "id": 149,
+                "name": "Mode",
+                "keywords": ["Mode"]
+            }
+        ]
+    }
+]

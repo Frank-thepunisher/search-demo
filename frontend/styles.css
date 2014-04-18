@@ -1,0 +1,20 @@
+.result-container {
+    min-height: 250px;
+}
+
+.result-container.loading {
+    background-image: url(spinner.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.result-container .images > div {
+    margin: 15px;
+    width: 168px;
+    height: 168px;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.result-container .images > span
