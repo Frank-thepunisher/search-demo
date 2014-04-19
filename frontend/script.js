@@ -1,80 +1,91 @@
 (function () {
+    // We can either search by category (if an entry from the dropdowns was selected) or by keywords (if the user
+    // entered something in the text box). The two are mutually exclusive, chosing one disables the other.
     var MODE_CATEGORY = 1,
         MODE_SEARCH = 2;
 
-    var mode = MODE_CATEGORY,
-        keywords = null,
-        pages = null,
-        page = 1,
-        categoryId = null;
+    var searchOptions = {
+        mode: MODE_CATEGORY,
+        page: 1,
+        pages: null,
+        keywords: null,
+        categoryId: null
+    };
 
+    // Execute the search with the currently set options.
     function search() {
-        var deferred = $.Deferred(),
+        var resultContainerEl = $('.result-container'),
+            paginationEl = $('.pagination'),
             params = {
-                page: page
+                page: searchOptions.page
             };
 
-        if (mode === MODE_CATEGORY) {
-            params.category = categoryId;
+        if (searchOptions.mode === MODE_CATEGORY) {
+            params.category = searchOptions.categoryId;
         } else {
-            params.keywords = keywords.join(',');
+            params.keywords = searchOptions.keywords.join(',');
         }
 
-        $('.result-container').addClass('loading').find('.images').empty();
+        resultContainerEl.addClass('loading').empty();
 
         $.ajax({
             url: 'search.php',
             data: params
-        }).done(function (data, status, jqxhr) {
-            var imageContainer = $('.result-container .images');
-            pages = data.meta.pages;
+        }).done(function (data) {
+            searchOptions.pages = data.meta.pages;
+
             data.images.forEach(function (image) {
                 $('<div>').attr({
-                    title: image.description,
                     'data-id': image.id,
                     'data-preview': image.preview
                 }).css({
                     backgroundImage: 'url(' + image.thumbnail + ')'
-                }).appendTo(imageContainer);
+                }).appendTo(resultContainerEl);
             });
 
             if (!data.images.length) {
-                $('<span>').text('Die Suche lieferte keine Ergebnisse.').appendTo(imageContainer);
+                $('<span>').text('Die Suche lieferte keine Ergebnisse.').appendTo(resultContainerEl);
+                paginationEl.hide();
+            } else {
+                paginationEl.show();
+                paginationEl.find('.current').text(data.meta.page);
+                paginationEl.find('.total').text(data.meta.pages);
             }
-
-        }).fail(function (jqxhr, status, error) {
-            deferred.reject(JSON.parse(jqxhr.responseText).error);
+        }).fail(function (jqxhr) {
+            var message = JSON.parse(jqxhr.responseText).error;
+            alert('Es ist ein Fehler aufgetreten: ' + message);
         }).always(function () {
             $('.result-container').removeClass('loading');
         });
-
-        return deferred.promise();
     }
 
+    // Set up the mouseover preview element
     $(document).ready(function () {
-        var previewEl = $('<div><img></div>').css('position', 'absolute');
+        var previewEl = $('<div><img></div>').addClass('preview-image');
 
-        $('.result-container').on('mousemove', '.images div', function (event) {
+        $('.result-container').on('mousemove', 'div', function (event) {
+            var previewUrl = $(event.target).attr('data-preview');
+
+            // Append only if needed to prevent flickering.
+            previewEl.filter(':not(:visible)').appendTo('body');
             previewEl.css({
                 left: event.pageX + 15,
                 top: event.pageY + 15
-            });
-        }).on('mouseleave', 'div', function (event) {
+            }).find('img').attr('src', previewUrl);
+        }).on('mouseleave', 'div', function () {
             previewEl.detach();
-        }).on('mouseenter', 'div', function (event) {
-            var previewUrl = $(event.target).attr('data-preview');
-            previewEl.appendTo('body').find('img').attr('src', previewUrl);
         });
     });
 
+    // Wire up dropdown selection logic
     $(document).ready(function () {
         var primary = $('.categories select.primary'),
             secondary = $('.categories select.secondary'),
             tertiary = $('.categories select.tertiary');
 
         function categorySearch(id) {
-            categoryId = id;
-            mode = MODE_CATEGORY;
+            searchOptions.categoryId = id;
+            searchOptions.mode = MODE_CATEGORY;
             $('.search input').val(null);
             search();
         }
@@ -87,9 +98,10 @@
         });
 
         primary.change(function () {
-            var subcategories = $(this).children(':selected').data().categories;
+            var subcategories = primary.children(':selected').data().categories;
 
             secondary.empty();
+            // Hide the third dropdown if the currently selected category has no subcategories.
             tertiary.empty().toggle(subcategories[0].hasOwnProperty('categories'));
 
             subcategories.forEach(function (category) {
@@ -99,7 +111,7 @@
         });
 
         secondary.change(function () {
-            var category = $(this).children(':selected').data(),
+            var category = secondary.children(':selected').data(),
                 subcategories = category.categories;
 
             tertiary.empty();
@@ -115,37 +127,41 @@
         });
 
         tertiary.change(function () {
-            var category = $(this).children(':selected').data();
+            var category = tertiary.children(':selected').data();
             categorySearch(category.id);
         });
     });
 
     $(document).ready(function () {
+        var inputEl = $('.search input'),
+            searchButtonEl = $('.search button');
+
         $('button.previous').click(function () {
-            if (page > 1) {
-                page--;
+            if (searchOptions.page > 1) {
+                searchOptions.page--;
                 search();
             }
         });
 
         $('button.next').click(function () {
-            if (page < pages) {
-                page++;
+            if (searchOptions.page < searchOptions.pages) {
+                searchOptions.page++;
                 search();
             }
         });
 
-        $('.search button').click(function () {
-            page = 1;
-            keywords = $('.search input').val().split(/\s+/).filter(function (term) {
+        searchButtonEl.click(function () {
+            searchOptions.page = 1;
+            searchOptions.keywords = inputEl.val().split(/\s+/).filter(function (term) {
                 return term.length > 0;
             });
-            mode = MODE_SEARCH;
+            searchOptions.mode = MODE_SEARCH;
             search();
         });
-        $('.search input').keydown(function (event) {
+
+        inputEl.keydown(function (event) {
             if (event.which === 13) {
-                $('.search button').click();
+                searchButtonEl.click();
             }
         });
     });

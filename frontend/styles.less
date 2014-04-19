@@ -1,0 +1,39 @@
+@images-per-page: 40;
+@images-per-row: 8;
+@image-size: 168px;
+@image-margin: 5px;
+@image-container-size: @image-size + 2 * @image-margin + 2px;
+
+.result-container {
+    border: 1px solid black;
+    padding: 5px;
+    width: @image-container-size * @images-per-row;
+    height: ceil(@images-per-page / @images-per-row) * @image-container-size;
+
+    &.loading {
+        background-image: url(spinner.gif);
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    > div {
+        border: 1px dotted black;
+        margin: @image-margin;
+        width: @image-size;
+        height: @image-size;
+        float: left;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
+
+.preview-image {
+    position: absolute;
+    border: 1px solid black;
+    background-color: white;
+    min-height: @image-size;
+    min-width: @image-size;
+    background-image: url(spinner.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+}

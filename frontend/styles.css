@@ -1,20 +1,30 @@
 .result-container {
-    min-height: 250px;
+  border: 1px solid black;
+  padding: 5px;
+  width: 1440px;
+  height: 900px;
 }
-
 .result-container.loading {
-    background-image: url(spinner.gif);
-    background-position: center center;
-    background-repeat: no-repeat;
+  background-image: url(spinner.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
 }
-
-.result-container .images > div {
-    margin: 15px;
-    width: 168px;
-    height: 168px;
-    float: left;
-    background-position: center center;
-    background-repeat: no-repeat;
+.result-container > div {
+  border: 1px dotted black;
+  margin: 5px;
+  width: 168px;
+  height: 168px;
+  float: left;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
-
-.result-container .images > span
+.preview-image {
+  position: absolute;
+  border: 1px solid black;
+  background-color: white;
+  min-height: 168px;
+  min-width: 168px;
+  background-image: url(spinner.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+}

@@ -9,10 +9,6 @@ class RfSearch {
     private $categories = null;
     private $categoryIndex = null;
 
-    public function __construct() {
-
-    }
-
     public function loadCategories($file) {
         if (!is_readable($file)) {
             throw new Exception('Categories file not found or not readable.');
