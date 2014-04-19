@@ -71,8 +71,9 @@
             previewEl.css({
                 left: event.pageX + 15,
                 top: event.pageY + 15
-            }).find('img').attr('src', previewUrl);
+            }).children('img').attr('src', previewUrl);
         }).on('mouseleave', 'div', function () {
+            previewEl.children('img').attr('src', null);
             previewEl.detach();
         });
     });
