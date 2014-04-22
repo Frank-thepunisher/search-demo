@@ -121,6 +121,7 @@ class RfSearch {
             'apikey' => $this->config->noncommercial->apiKey,
             'method' => '123rf.images.search',
             'keyword' => join(',', $keywords),
+            'language' => 'de',
             'page' => intval($page),
             'media_type' => $mediaTypes,
             'perpage' => 40,
