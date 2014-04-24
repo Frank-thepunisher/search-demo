@@ -33,14 +33,14 @@ class RfSearch {
         if (array_key_exists($category->id, $this->categoryIndex)) {
             throw new Exception("Category id {$category->id} is not unique.");
         }
-        $this->categoryIndex[(string) $category->id] = (Object) [
+        $this->categoryIndex[(string) $category->id] = (Object) array(
             'keywords' => $category->keywords,
             'mediatypes' => $mediaTypes
-        ];
+        );
     }
 
     private function createCategoryIndex() {
-        $this->categoryIndex = [];
+        $this->categoryIndex = array();
 
         foreach ($this->categories as $category) {
             foreach ($category->categories as $subcategory) {
@@ -112,12 +112,12 @@ class RfSearch {
         }
 
         $mediaTypes = $categoryId === null ? 'all' : join(',', $this->categoryIndex[(string) $categoryId]->mediatypes);
-        $categoryKeywords = $categoryId === null ? [] : $this->categoryIndex[(string) $categoryId]->keywords;
-        $searchKeywords = $keywords === null ? [] : $keywords;
+        $categoryKeywords = $categoryId === null ? array() : $this->categoryIndex[(string) $categoryId]->keywords;
+        $searchKeywords = $keywords === null ? array() : $keywords;
         $keywords = array_merge($categoryKeywords, $searchKeywords);
 
         $handle = curl_init();
-        $parameters = [
+        $parameters = array(
             'apikey' => $this->config->noncommercial->apiKey,
             'method' => '123rf.images.search',
             'keyword' => join(',', $keywords),
@@ -127,7 +127,7 @@ class RfSearch {
             'perpage' => 40,
             'orderby' => 'latest',
             'nudity' => 1
-        ];
+        );
 
         curl_setopt_array($handle, array(
             CURLOPT_HTTPGET => true,
@@ -158,15 +158,15 @@ class RfSearch {
                 throw new Exception("Response from 123RF backend failed with error code {$errorCode}.");
             }
 
-            $result = (Object) [
-                'meta' => (Object) [
+            $result = (Object) array(
+                'meta' => (Object) array(
                     'page' => $xpath->evaluate('number(/rsp/images/@page)'),
                     'pages' => $xpath->evaluate('number(/rsp/images/@pages)'),
                     'total' => $xpath->evaluate('number(/rsp/images/@total)'),
                     'keywords' => array_values($keywords)
-                ],
-                'images' => []
-            ];
+                ),
+                'images' => array()
+            );
 
             foreach ($xpath->query("/rsp/images/image") as $node) {
                 $thumbnail_url = sprintf(
@@ -181,12 +181,12 @@ class RfSearch {
                     $node->getAttribute('folder'),
                     $node->getAttribute('filename')
                 );
-                $result->images[] = (Object) [
+                $result->images[] = (Object) array(
                     'id' => $node->getAttribute('id'),
                     'description' => $node->getAttribute('description'),
                     'thumbnail' => $thumbnail_url,
                     'preview' => $preview_url
-                ];
+                );
             }
 
             curl_close($handle);
