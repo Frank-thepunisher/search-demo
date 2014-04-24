@@ -5,8 +5,8 @@ declare(encoding='utf-8');
 require_once('../backend/RfSearch.php');
 
 try {
-    $configFile = join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'config.json']);
-    $categoriesFile = join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'categories.json']);
+    $configFile = join(DIRECTORY_SEPARATOR, array(__DIR__, '..', 'config.json'));
+    $categoriesFile = join(DIRECTORY_SEPARATOR, array(__DIR__, '..', 'categories.json'));
 
     $rfSearch = new RfSearch();
     $rfSearch->loadConfig($configFile);
@@ -16,9 +16,9 @@ try {
     respond($categories);
 
 } catch (Exception $e) {
-    respond((Object) [
+    respond((Object) array(
         'error' => $e->getMessage()
-    ], '500 Internal Server Error');
+    ), '500 Internal Server Error');
 }
 
 function respond($response, $status = '200 OK') {
