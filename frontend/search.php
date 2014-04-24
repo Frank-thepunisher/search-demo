@@ -26,7 +26,7 @@ try {
 function respond($response, $status = '200 OK') {
     header("HTTP/1.1 {$status}");
     header('Content-Type: application/json');
-    die(json_encode($response, JSON_PRETTY_PRINT));
+    die(json_encode($response));
 }
 
 function processAndValidateRequest(RfSearch $rfSearch) {
