@@ -90,6 +90,146 @@
                         "id": 17,
                         "name": "Cairo",
                         "keywords": ["Cairo"]
+                    },
+                    {
+                        "id": 150,
+                        "name": "Bangkok",
+                        "keywords": ["Bangkok"]
+                    },
+                    {
+                        "id": 151,
+                        "name": "Barcelona",
+                        "keywords": ["Barcelona"]
+                    },
+                    {
+                        "id": 152,
+                        "name": "Belgrad",
+                        "keywords": ["Belgrad"]
+                    },
+                    {
+                        "id": 153,
+                        "name": "Chicago",
+                        "keywords": ["Chicago"]
+                    },
+                    {
+                        "id": 154,
+                        "name": "Denver",
+                        "keywords": ["Denver"]
+                    },
+                    {
+                        "id": 155,
+                        "name": "Dublin",
+                        "keywords": ["Dublin"]
+                    },
+                    {
+                        "id": 156,
+                        "name": "Edinburgh",
+                        "keywords": ["Edinburgh"]
+                    },
+                    {
+                        "id": 157,
+                        "name": "Guangzhou",
+                        "keywords": ["Guangzhou"]
+                    },
+                    {
+                        "id": 158,
+                        "name": "Hanoi",
+                        "keywords": ["Hanoi"]
+                    },
+                    {
+                        "id": 159,
+                        "name": "Helsinki",
+                        "keywords": ["Helsinki"]
+                    },
+                    {
+                        "id": 160,
+                        "name": "Kopenhagen",
+                        "keywords": ["Kopenhagen"]
+                    },
+                    {
+                        "id": 161,
+                        "name": "London",
+                        "keywords": ["London"]
+                    },
+                    {
+                        "id": 162,
+                        "name": "Mailand",
+                        "keywords": ["Mailand"]
+                    },
+                    {
+                        "id": 163,
+                        "name": "Mallorca",
+                        "keywords": ["Mallorca"]
+                    },
+                    {
+                        "id": 164,
+                        "name": "Marseille",
+                        "keywords": ["Marseille"]
+                    },
+                    {
+                        "id": 165,
+                        "name": "Mecca",
+                        "keywords": ["Mecca"]
+                    },
+                    {
+                        "id": 166,
+                        "name": "Moskau",
+                        "keywords": ["Moskau"]
+                    },
+                    {
+                        "id": 167,
+                        "name": "Nantes",
+                        "keywords": ["Nantes"]
+                    },
+                    {
+                        "id": 168,
+                        "name": "Oslo",
+                        "keywords": ["Oslo"]
+                    },
+                    {
+                        "id": 169,
+                        "name": "Peking",
+                        "keywords": ["Peking"]
+                    },
+                    {
+                        "id": 170,
+                        "name": "Portland",
+                        "keywords": ["Portland"]
+                    },
+                    {
+                        "id": 171,
+                        "name": "Prag",
+                        "keywords": ["Prag"]
+                    },
+                    {
+                        "id": 172,
+                        "name": "Reykjavik",
+                        "keywords": ["Reykjavik"]
+                    },
+                    {
+                        "id": 173,
+                        "name": "Shanghai",
+                        "keywords": ["Shanghai"]
+                    },
+                    {
+                        "id": 174,
+                        "name": "St. Petersburg",
+                        "keywords": ["St. Petersburg"]
+                    },
+                    {
+                        "id": 175,
+                        "name": "Stockholm",
+                        "keywords": ["Stockholm"]
+                    },
+                    {
+                        "id": 176,
+                        "name": "Tunis",
+                        "keywords": ["Tunis"]
+                    },
+                    {
+                        "id": 177,
+                        "name": "Washington",
+                        "keywords": ["Washington"]
                     }
                 ]
             },
@@ -278,8 +418,8 @@
                     },
                     {
                         "id": 47,
-                        "name": "Hügellandschaft",
-                        "keywords": ["Hügellandschaft"]
+                        "name": "Steppe",
+                        "keywords": ["Steppe"]
                     },
                     {
                         "id": 48,
@@ -293,8 +433,8 @@
                 "categories": [
                     {
                         "id": 49,
-                        "name": "Welle",
-                        "keywords": ["Welle"]
+                        "name": "Wasserwellen",
+                        "keywords": ["Wasserwellen"]
                     },
                     {
                         "id": 50,
@@ -303,8 +443,8 @@
                     },
                     {
                         "id": 51,
-                        "name": "Hochwasser",
-                        "keywords": ["Hochwasser"]
+                        "name": "Tsunami",
+                        "keywords": ["Tsunami"]
                     }
                 ]
             },
@@ -358,6 +498,26 @@
                 "id": 59,
                 "name": "Chinesische Mauer",
                 "keywords": ["Chinesische Mauer"]
+            },
+            {
+                "id": 178,
+                "name": "Eiffelturm",
+                "keywords": ["Eiffelturm"]
+            },
+            {
+                "id": 179,
+                "name": "Freiheitsstatue",
+                "keywords": ["Freiheitsstatue"]
+            },
+            {
+                "id": 180,
+                "name": "Rushmore",
+                "keywords": ["Rushmore"]
+            },
+            {
+                "id": 181,
+                "name": "Wiesn",
+                "keywords": ["Wiesn"]
             }
         ]
     },
@@ -473,6 +633,26 @@
                         "id": 76,
                         "name": "Gerbera",
                         "keywords": ["Gerbera"]
+                    },
+                    {
+                        "id": 205,
+                        "name": "Margarite",
+                        "keywords": ["Margarite"]
+                    },
+                    {
+                        "id": 206,
+                        "name": "Orchidee",
+                        "keywords": ["Orchidee"]
+                    },
+                    {
+                        "id": 207,
+                        "name": "Sonnenblume",
+                        "keywords": ["Sonnenblume"]
+                    },
+                    {
+                        "id": 231,
+                        "name": "Veilchen",
+                        "keywords": ["Veilchen"]
                     }
                 ]
             },
@@ -503,6 +683,36 @@
                         "id": 81,
                         "name": "Park",
                         "keywords": ["Park"]
+                    },
+                    {
+                        "id": 208,
+                        "name": "Ahornbaum",
+                        "keywords": ["Ahornbaum"]
+                    },
+                    {
+                        "id": 209,
+                        "name": "Apfelbaum",
+                        "keywords": ["Apfelbaum"]
+                    },
+                    {
+                        "id": 210,
+                        "name": "Birke",
+                        "keywords": ["Birke"]
+                    },
+                    {
+                        "id": 211,
+                        "name": "Birnenbaum",
+                        "keywords": ["Birnenbaum"]
+                    },
+                    {
+                        "id": 212,
+                        "name": "Eiche",
+                        "keywords": ["Eiche"]
+                    },
+                    {
+                        "id": 213,
+                        "name": "Fichte",
+                        "keywords": ["Fichte"]
                     }
                 ]
             },
@@ -543,6 +753,31 @@
                         "id": 88,
                         "name": "Wasserfall",
                         "keywords": ["Wasserfall"]
+                    },
+                    {
+                        "id": 214,
+                        "name": "Dnepr",
+                        "keywords": ["Dnepr"]
+                    },
+                    {
+                        "id": 215,
+                        "name": "Mosel",
+                        "keywords": ["Mosel"]
+                    },
+                    {
+                        "id": 216,
+                        "name": "Neckar",
+                        "keywords": ["Neckar"]
+                    },
+                    {
+                        "id": 217,
+                        "name": "Rhein",
+                        "keywords": ["Rhein"]
+                    },
+                    {
+                        "id": 218,
+                        "name": "Rhone",
+                        "keywords": ["Rhone"]
                     }
                 ]
             },
@@ -558,6 +793,16 @@
                         "id": 90,
                         "name": "Gardasee",
                         "keywords": ["Gardasee"]
+                    },
+                    {
+                        "id": 219,
+                        "name": "Chiemsee",
+                        "keywords": ["Chiemsee"]
+                    },
+                    {
+                        "id": 220,
+                        "name": "Bodensee",
+                        "keywords": ["Bodensee"]
                     }
                 ]
             },
@@ -628,6 +873,66 @@
                         "id": 102,
                         "name": "Pferde",
                         "keywords": ["Pferde"]
+                    },
+                    {
+                        "id": 221,
+                        "name": "Hamster",
+                        "keywords": ["Hamster"]
+                    },
+                    {
+                        "id": 222,
+                        "name": "Hasen",
+                        "keywords": ["Hasen"]
+                    },
+                    {
+                        "id": 223,
+                        "name": "Meerschweinchen",
+                        "keywords": ["Meerschweinchen"]
+                    },
+                    {
+                        "id": 224,
+                        "name": "Papagei",
+                        "keywords": ["Papagei"]
+                    },
+                    {
+                        "id": 225,
+                        "name": "Sittich",
+                        "keywords": ["Sittich"]
+                    }
+                ]
+            },
+            { 
+                "name": "andere",
+                "categories": [
+                    {
+                        "id": 232,
+                        "name": "Wald",
+                        "keywords": ["Wald"]
+                    },
+                    {
+                        "id": 226,
+                        "name": "Wiese",
+                        "keywords": ["Wiese"]
+                    },
+                    {
+                        "id": 227,
+                        "name": "Aue",
+                        "keywords": ["Aue"]
+                    },
+                    {
+                        "id": 228,
+                        "name": "Gipfel",
+                        "keywords": ["Gipfel"]
+                    },
+                    {
+                        "id": 229,
+                        "name": "Pflanzen",
+                        "keywords": ["Pflanzen"]
+                    },
+                    {
+                        "id": 230,
+                        "name": "Allee",
+                        "keywords": ["Allee"]
                     }
                 ]
             }
@@ -734,23 +1039,43 @@
                 "categories": [
                     {
                         "id": 119,
-                        "name": "chinesisches Essen ",
-                        "keywords": ["chinesisches Essen "]
+                        "name": "Braten",
+                        "keywords": ["Braten"]
                     },
                     {
                         "id": 120,
-                        "name": "italienisches Essen",
-                        "keywords": ["italienisches Essen"]
+                        "name": "Dessert",
+                        "keywords": ["Dessert"]
                     },
                     {
                         "id": 121,
-                        "name": "amerikanisches Essen",
-                        "keywords": ["amerikanisches Essen"]
+                        "name": "Hochzeitstorte",
+                        "keywords": ["Hochzeitstorte"]
                     },
                     {
                         "id": 122,
-                        "name": "deutsches Essen",
-                        "keywords": ["deutsches Essen"]
+                        "name": "Kuchen",
+                        "keywords": ["Kuchen"]
+                    },
+                    {
+                        "id": 200,
+                        "name": "Obst",
+                        "keywords": ["Obst"]
+                    },
+                    {
+                        "id": 201,
+                        "name": "Speiseeis",
+                        "keywords": ["Speiseeis"]
+                    },
+                    {
+                        "id": 202,
+                        "name": "Torte",
+                        "keywords": ["Torte"]
+                    },
+                    {
+                        "id": 203,
+                        "name": "Wurst",
+                        "keywords": ["Wurst"]
                     }
                 ]
             },
@@ -795,28 +1120,53 @@
                 "categories": [
                     {
                         "id": 128,
-                        "name": "bergsteigen",
-                        "keywords": ["bergsteigen"]
+                        "name": "Athlet",
+                        "keywords": ["Athlet"]
                     },
                     {
                         "id": 129,
-                        "name": "radfahren",
-                        "keywords": ["radfahren"]
+                        "name": "Bergsteiger",
+                        "keywords": ["Bergsteiger"]
                     },
                     {
                         "id": 130,
-                        "name": "wandern",
-                        "keywords": ["wandern"]
+                        "name": "Boxer",
+                        "keywords": ["Boxer"]
                     },
                     {
                         "id": 131,
-                        "name": "Golf",
-                        "keywords": ["Golf"]
+                        "name": "Fußballer",
+                        "keywords": ["Fußballer"]
                     },
                     {
                         "id": 132,
-                        "name": "Tennis",
-                        "keywords": ["Tennis"]
+                        "name": "Golfer",
+                        "keywords": ["Golfer"]
+                    },
+                    {
+                        "id": 192,
+                        "name": "Radfahrer",
+                        "keywords": ["Radfahrer"]
+                    },
+                    {
+                        "id": 193,
+                        "name": "Ringer",
+                        "keywords": ["Ringer"]
+                    },
+                    {
+                        "id": 194,
+                        "name": "Sportler",
+                        "keywords": ["Sportler"]
+                    },
+                    {
+                        "id": 195,
+                        "name": "Tennisspieler",
+                        "keywords": ["Tennisspieler"]
+                    },
+                    {
+                        "id": 196,
+                        "name": "Skifahren",
+                        "keywords": ["Skifahren"]
                     }
                 ]
             },
@@ -857,6 +1207,26 @@
                         "id": 138,
                         "name": "Motorrad",
                         "keywords": ["Motorrad"]
+                    },
+                    {
+                        "id": 197,
+                        "name": "Lesen",
+                        "keywords": ["Lesen"]
+                    },
+                    {
+                        "id": 198,
+                        "name": "Basteln",
+                        "keywords": ["Basteln"]
+                    },
+                    {
+                        "id": 199,
+                        "name": "Malen",
+                        "keywords": ["Malen"]
+                    },
+                    {
+                        "id": 233,
+                        "name": "Spielen",
+                        "keywords": ["Spielen"]
                     }
                 ]
             }
@@ -920,6 +1290,56 @@
                 "id": 149,
                 "name": "Mode",
                 "keywords": ["Mode"]
+            },
+            {
+                "id": 182,
+                "name": "Cyberpunk",
+                "keywords": ["Cyberpunk"]
+            },
+            {
+                "id": 183,
+                "name": "Ranke",
+                "keywords": ["Ranke"]
+            },
+            {
+                "id": 184,
+                "name": "Romantik",
+                "keywords": ["Romantik"]
+            },
+            {
+                "id": 185,
+                "name": "Science-Fiction",
+                "keywords": ["Science-Fiction"]
+            },
+            {
+                "id": 186,
+                "name": "Space",
+                "keywords": ["Space"]
+            },
+            {
+                "id": 187,
+                "name": "Steampunk",
+                "keywords": ["Steampunk"]
+            },
+            {
+                "id": 188,
+                "name": "Tatoo",
+                "keywords": ["Tatoo"]
+            },
+            {
+                "id": 189,
+                "name": "Tribal",
+                "keywords": ["Tribal"]
+            },
+            {
+                "id": 190,
+                "name": "Weltall",
+                "keywords": ["Weltall"]
+            },
+            {
+                "id": 191,
+                "name": "Zeichen",
+                "keywords": ["Zeichen"]
             }
         ]
     }

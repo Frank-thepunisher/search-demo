@@ -128,6 +128,9 @@ class RfSearch {
             'orderby' => 'latest',
             'nudity' => 1
         );
+        
+        // Enable this for debugging but never in production since it will reveal your api key!
+        // header('X-123RF-Query: ' . json_encode($parameters));
 
         curl_setopt_array($handle, array(
             CURLOPT_HTTPGET => true,
