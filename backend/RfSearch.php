@@ -79,18 +79,12 @@ class RfSearch {
 
         foreach ($result as &$category) {
             unset($category->mediatypes);
-            usort($category->categories, function ($a, $b) {
-                return strcmp($a->name, $b->name);
-            });
 
             foreach ($category->categories as $subcategory) {
                 unset($subcategory->mediatypes);
                 unset($subcategory->keywords);
 
                 if (property_exists($subcategory, 'categories')) {
-                    usort($subcategory->categories, function ($a, $b) {
-                        return strcmp($a->name, $b->name);
-                    });
                     foreach ($subcategory->categories as $subsubcategory) {
                         unset($subsubcategory->mediatypes);
                         unset($subsubcategory->keywords);
